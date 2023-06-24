@@ -11,7 +11,7 @@ while i <= 10 :                                                                 
         if sayi == r:                            
             print("Sayiyi buldunuz. Bilgisayarın seçtiği sayi {}".format(sayi))
             i +=1                                                                     #i+=1 ifadesi her denemenizde yukarıda girilen i=0 değerine 1 ekleyecektir.
-            break
+            break                                                                     #break ifadesi while döngüsünü kırıp, çıkmaya yaramaktadır.
         elif sayi < r:
             print(" Vermiş olduğunuz sayi küçüktür {} ".format(sayi))
             i+=1
